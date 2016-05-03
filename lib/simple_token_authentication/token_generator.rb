@@ -8,7 +8,7 @@ module SimpleTokenAuthentication
    		if block_given?
    			yield
    		else
-      	Devise.friendly_token
+      	Devise.friendly_token(32)
       end
     end
   end
