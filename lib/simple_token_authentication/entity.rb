@@ -39,7 +39,7 @@ module SimpleTokenAuthentication
     end
 
     def token_param_name
-      "#{name_underscore}_token".to_sym
+      "token".to_sym
     end
 
     def identifier_param_name
